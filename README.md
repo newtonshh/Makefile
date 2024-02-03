@@ -1,0 +1,2 @@
+# Makefile
+test any Makefile
