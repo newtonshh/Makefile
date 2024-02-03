@@ -3,7 +3,7 @@ C11 = -std=c++11
 CPP_SRC = $(shell find src -name *.cpp)
 CPP_OBJS = $(patsubst src/%.cpp, objs/%.o, $(CPP_SRC))
 LKFLAGS = -fPIC -shared
-INC = -I/Users/lxy/Documents/c++/inc
+INC = -I./inc
 
 main: $(CPP_OBJS)
 	$(CC) -o main $(CPP_OBJS)
